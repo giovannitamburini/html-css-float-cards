@@ -21,21 +21,39 @@ header h1 {
 }
 
 .clear-fix {
-    clear: both;
+    /* clear: both; */
+}
+
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .img-people {
-    height: 120px;
-    float: left;
-}
-
-.column {
-    width: 33%;
+    height: 100px;
     float:left;
 }
 
+.column {
+    float:left;
+    padding: 20px 10px;
+}
+
 .black-box {
-    width: 310px;
-    height: 120px;
-    background-color: red;
+    width: 300px;
+    height: 100px;
+    background-color: #0f0e17;
+    color: white;
+    line-height: 25px;
+    font-size:1.1em;
+    padding-left: 110px;
+    padding-top: 10px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.mail {
+    color: #39bef7;
 }
